@@ -1,0 +1,28 @@
+ls
+mkdir project
+ls
+cd project
+ls
+git init #(initializes empty git repo)
+ls
+ls -a #(all including hidden)
+ls .git
+touch names.txt #(creates names.txt)
+git status
+git add names.txt
+git status
+git commit -m "names.txt file added" #(-m stands for message)
+
+#( needed to add (git config --global user.email "you@example.com")
+(git config --global user.name "Your Name")(put your github email and name))
+
+git commit -m "names.txt file added"
+git status
+
+vi names.txt ( add names than to get out press esc and type :x)
+cat names.txt
+git status
+git add .
+git status
+git restore --staged names.txt
+git status
