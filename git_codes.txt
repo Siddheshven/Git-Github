@@ -26,3 +26,6 @@ git add .
 git status
 git restore --staged names.txt
 git status
+git add . 
+git status
+git commit -m "names.txt file modified"
