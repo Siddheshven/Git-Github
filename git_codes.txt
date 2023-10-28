@@ -29,3 +29,37 @@ git status
 git add . 
 git status
 git commit -m "names.txt file modified"
+rm -rf names.txt
+git status
+git add .
+git commit -m "names.txt file deleted"
+git log #(press q or ctrl +c to exit)
+git reset [hash no.]  #(put hash no of the commit to want to reset your commits to)
+git log
+git status
+git add .
+git status
+touch surnames.txt
+git add .
+git status
+vi surnames.txt (write something in surnames.txt)
+touch houses.txt
+git add .
+git status
+ls
+git stash
+git status
+git log
+cat names.txt
+git stash pop
+git add .
+git stash clear
+git remote add origin url #(url of git repository)
+git remote -v #(shows all the url that are attacht to the folder)
+git push origin master
+touch surnames.txt
+git add .
+vi surnames.txt #(add any text and press esc and :wq)
+git status
+git log
+#(branches are different branches so that you dont have to work on main branch ass there might be error in your code)
